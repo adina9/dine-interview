@@ -54,5 +54,8 @@
 @media (max-width: 400px) {
     .partD {
         height: 1044px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100vh;
     }
 }
