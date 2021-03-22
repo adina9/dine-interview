@@ -5,12 +5,11 @@ export class ItemPreview extends React.Component {
         console.log('this.props:', this.props);
     }
     render() {
-        const { item,id,imgs } = this.props
-        console.log('imgs:',imgs);
+        const { item, id, imgs } = this.props
         return (
-            <div className="flex item-preview">
+            <section className="flex item-preview">
                 <div className="item-img">
-                 <img src={imgs[id]} alt=""/>
+                    <img src={imgs[id]} alt="" />
                 </div>
                 <div className="line"></div>
                 <div className="info">
@@ -21,7 +20,7 @@ export class ItemPreview extends React.Component {
                         {item.desc}
                     </p>
                 </div>
-            </div>
+            </section>
         )
     }
 }

@@ -13,7 +13,7 @@
         left: 14vw;
         font-family: revert;
     }
-    .btn{
+    .btn {
         width: 15vw;
         height: 8vh;
         position: relative;
@@ -23,5 +23,28 @@
         color: white;
         font-size: 17px;
         font-weight: bold;
+    }
+}
+@media (max-width: 400px) {
+    .partE {
+        height: 328px;
+        position: absolute;
+        margin-top: -85vh;
+        text-align: center;
+        background-image: url("../../assets/images/homepage/ready-bg-mobile.jpg");
+        .txt {
+            left: 0vw;
+            font-size: 35px;
+            top: -7vh;
+            line-height: 7vh;
+        }
+        .btn{
+            position: absolute;
+            margin-left: -21vw;
+            margin-top: 19vh;
+            width: 74%;
+            height: 11vh;
+            border: 2px solid white;
+        }
     }
 }

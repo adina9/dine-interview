@@ -2,7 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 0.2fr 2fr;
     height: 133px;
+    // :not(:last-child){
+
     border-bottom: 1px solid #80808045;
+    // }
     .item-img {
         img {
             width: 127px;
@@ -14,7 +17,7 @@
         background-color: #80808045;
         position: relative;
         top: 5vh;
-        left: -4.3vw;
+        left: -3.3vw;
     }
     .info {
         .title {
@@ -40,13 +43,14 @@
         text-align: center;
         height: 55vh;
         border-bottom: none;
+        margin-top: 4vh;
         .item-img {
             img {
                 width: unset;
             }
         }
-        .line{
-            top: 18vh;
+        .line {
+            top: 19vh;
             left: 0;
         }
     }

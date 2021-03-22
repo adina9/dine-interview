@@ -14,3 +14,23 @@
         font-weight: bold;
     }
 }
+@media (max-width: 400px) {
+    .footer {
+        height: 440px;
+        margin-top: -38vh;
+        display: grid;
+        padding: 38px;
+        text-align: center;
+        padding-left: 15vw;
+        .site-name{
+            margin-top: 7vh;
+            margin-left: 0;
+        }
+        .middle,.right {
+            display: grid;
+            line-height: 0;
+            margin-bottom: 3vh;
+        }
+       
+    }
+}

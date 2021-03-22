@@ -1,13 +1,16 @@
 .partB {
     height: 1410px;
     .top {
+        .back-img img {
+            margin-top: 32vh;
+            position: absolute;
+        }
         .img {
             img {
                 width: 540px;
                 margin: 22vh;
                 margin-top: -13vh;
-                box-shadow: 0px 75px 100px -50px rgba(56,66,85,0.5);
-                // box-shadow: 0px 75px 100px -50px rgb(56 66 85 / 50%);
+                box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
             }
         }
         .txt {
@@ -15,6 +18,8 @@
             margin-top: 20vh;
             margin-left: 2vh;
             width: 42vh;
+            position: unset;
+            // top: unset;
             .title {
                 font-size: 25px;
                 font-weight: bold;
@@ -38,12 +43,23 @@
                 font-size: 15px;
             }
         }
+        .bottom-back-img img {
+            position: absolute;
+            margin-top: 44vh;
+            z-index: -1;
+            margin-left: -10.4vw;
+        }
         .img {
             img {
-                margin-left: 2vw;
-                box-shadow: 0px 75px 100px -50px rgba(56,66,85,0.5);
-                // box-shadow: 0px 75px 100px -50px rgb(56 66 85 / 50%);
+                position: unset;
+                margin-left: 5vw;
+                box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
             }
+        }
+        .lines-img img {
+            margin-top: 37vh;
+            margin-left: -3vw;
+            z-index: -1;
         }
     }
 }
@@ -52,11 +68,39 @@
         height: 1450px;
         display: grid;
         grid-template-columns: 1fr;
-        .top{
-            .img{
-                img{
-                 margin: 0;
+        .top {
+            .back-img {
+                display: none;
+            }
+            .img {
+                img {
+                    width: 325px;
+                    margin-left: 6vw;
+                    margin-top: -9vh;
                 }
+            }
+            .txt {
+                margin-left: 12vw;
+                position: absolute;
+                top: 150vh;
+                text-align: center;
+            }
+        }
+        .bottom {
+            .bottom-back-img,
+            .lines-img {
+                display: none;
+            }
+            .img img {
+                left: 0;
+                width: 325px;
+                margin-top: -20vh;
+            }
+            .txt{
+                margin-left: 12vw;
+                position: absolute;
+                top: 255vh;
+                text-align: center;
             }
         }
     }

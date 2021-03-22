@@ -2,9 +2,7 @@
 export function Footer() {
     return (
         <div className="flex footer">
-       
-                <p className="site-name">dine</p>
-           
+            <p className="site-name">dine</p>
             <div className="middle">
                 <p> Marthwaite, Sedbergh</p>
                 <p> Cumbria</p>
