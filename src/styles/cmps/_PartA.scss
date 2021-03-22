@@ -1,0 +1,49 @@
+.partA {
+    height: 820px;
+    width: 100%;
+
+    background-image: url("../../assets/images/homepage/hero-bg-desktop.jpg");
+    .top p {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        font-family: system-ui;
+        position: absolute;
+        top: 5vh;
+        left: 11vw;
+    }
+    .main-part {
+        // background-color: aqua;
+        height: 390px;
+        position: absolute;
+        top: 26vh;
+        left: 11vw;
+        color: white;
+        width: 29vw;
+        .left {
+            .title {
+                font-size: 43px;
+            }
+            .full-txt {
+                line-height: 26px;
+            }
+            .btn {
+                background-color: unset;
+                border: 1px solid white;
+                height: 43px;
+                width: 14vw;
+                margin-top: 2vh;
+                color: white;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    .partA {
+        height: 748px;
+        background-image: url("../../assets/images/homepage/hero-bg-mobile.jpg");
+        
+    }
+}

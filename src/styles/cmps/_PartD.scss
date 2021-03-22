@@ -1,0 +1,23 @@
+.partD {
+    height: 920px;
+    padding: 20vh;
+    padding-right: 10px;
+    .img {
+        width: 550px;
+    }
+    .right {
+        margin-left: 7vw;
+        .top-txt {
+            .title {
+                font-weight: bold;
+                font-size: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    .partD{
+
+        height: 1044px;
+    }
+}

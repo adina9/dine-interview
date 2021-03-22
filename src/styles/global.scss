@@ -1,0 +1,27 @@
+// Setup
+@import "./setup/variables.scss";
+@import "./setup/functions.scss";
+@import "./setup/mixins.scss";
+@import "./setup/typography.scss";
+
+// Basics
+@import "./basics/helpers.scss";
+@import "./basics/layout.scss";
+@import "./basics/base.scss";
+@import "./basics/buttons.scss";
+
+// Pages
+@import "./pages/Home.scss";
+@import "./pages/About.scss";
+
+// Components
+@import "./cmps/AppFooter";
+@import "./cmps/AppHeader";
+
+@import "./cmps/PartA";
+@import "./cmps/PartB";
+@import "./cmps/PartC";
+@import "./cmps/PartD";
+
+@import './cmps/ItemList';
+@import "./cmps/ItemPreview";
