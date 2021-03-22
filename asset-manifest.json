@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/dine-interview/static/css/main.8c3226e2.chunk.css",
+    "main.js": "/dine-interview/static/js/main.f8499757.chunk.js",
+    "main.js.map": "/dine-interview/static/js/main.f8499757.chunk.js.map",
+    "runtime-main.js": "/dine-interview/static/js/runtime-main.382c095e.js",
+    "runtime-main.js.map": "/dine-interview/static/js/runtime-main.382c095e.js.map",
+    "static/js/2.2ebf0484.chunk.js": "/dine-interview/static/js/2.2ebf0484.chunk.js",
+    "static/js/2.2ebf0484.chunk.js.map": "/dine-interview/static/js/2.2ebf0484.chunk.js.map",
+    "static/js/3.39bb38a8.chunk.js": "/dine-interview/static/js/3.39bb38a8.chunk.js",
+    "static/js/3.39bb38a8.chunk.js.map": "/dine-interview/static/js/3.39bb38a8.chunk.js.map",
+    "index.html": "/dine-interview/index.html",
+    "service-worker.js": "/dine-interview/service-worker.js",
+    "service-worker.js.map": "/dine-interview/service-worker.js.map",
+    "static/css/main.8c3226e2.chunk.css.map": "/dine-interview/static/css/main.8c3226e2.chunk.css.map",
+    "static/js/2.2ebf0484.chunk.js.LICENSE.txt": "/dine-interview/static/js/2.2ebf0484.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/dine-interview/static/media/hero-bg-mobile.56d0d7be.jpg",
+    "static/media/family-gathering-desktop.03b16029.jpg": "/dine-interview/static/media/family-gathering-desktop.03b16029.jpg",
+    "static/media/menu-item1.jpg": "/dine-interview/static/media/menu-item1.7bd94a87.jpg",
+    "static/media/menu-item2.jpg": "/dine-interview/static/media/menu-item2.81249e77.jpg",
+    "static/media/menu-item3.jpg": "/dine-interview/static/media/menu-item3.22eddbf1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.382c095e.js",
+    "static/js/2.2ebf0484.chunk.js",
+    "static/css/main.8c3226e2.chunk.css",
+    "static/js/main.f8499757.chunk.js"
+  ]
+}
