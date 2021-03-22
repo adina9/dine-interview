@@ -1,0 +1,16 @@
+.footer {
+    height: 240px;
+    background: #111111;
+    border-top: 1px solid #948c8c6e;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17vh;
+    padding-right: 23vw;
+    .site-name {
+        margin-top: -5vh;
+        font-size: 7vh;
+        margin-left: 6vw;
+        font-weight: bold;
+    }
+}

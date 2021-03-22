@@ -1,0 +1,27 @@
+.partE {
+    height: 240px;
+    align-items: center;
+    background-image: url("../../assets/images/homepage/ready-bg-desktop.jpg");
+    .txt {
+        color: #ffffff;
+        font-family: Spartan;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        position: relative;
+        left: 14vw;
+        font-family: revert;
+    }
+    .btn{
+        width: 15vw;
+        height: 8vh;
+        position: relative;
+        left: 31vw;
+        background-color: unset;
+        border: 1px solid #ffffff9e;
+        color: white;
+        font-size: 17px;
+        font-weight: bold;
+    }
+}

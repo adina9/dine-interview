@@ -1,9 +1,11 @@
+import src from '../assets/images/homepage/enjoyable-place-desktop.jpg'
+import src2 from '../assets/images/homepage/locally-sourced-desktop.jpg'
 export function PartB() {
     return (
         <div className="partB">
             <div className="flex top">
                 <div className="img">
-                    {/* img here */}
+                    <img src={src} alt=""/>
                 </div>
                 <div className="txt">
                     <p className="title">  Enjoyable place for all the family</p>
@@ -16,12 +18,12 @@ export function PartB() {
             <div className="flex bottom">
                 <div className="txt">
                     <p className="title">The most locally sourced food</p>
-                    <pre className="full-txt">  All our ingredients come directly from our farm or local fishery. So you can be sure that you’re
+                    <p className="full-txt">  All our ingredients come directly from our farm or local fishery. So you can be sure that you’re
                         eating the freshest, most sustainable food.
-                    </pre>
+                    </p>
                 </div>
                 <div className="img">
-                    {/* img here */}
+                    <img src={src2} alt=""/>
                 </div>
             </div>
         </div>

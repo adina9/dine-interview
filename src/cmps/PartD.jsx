@@ -5,6 +5,7 @@ export function PartD() {
             <div className="img">
                 <img src={src} alt=""/>
             </div>
+            <div className="line"></div>
             <div className="right">
                 <div className="top-txt">
                     <p className="title">

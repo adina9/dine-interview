@@ -14,7 +14,7 @@
         background-color: #80808045;
         position: relative;
         top: 5vh;
-        left: -2.3vw;
+        left: -4.3vw;
     }
     .info {
         .title {
@@ -36,13 +36,17 @@
     .item-preview {
         display: grid;
         grid-template-columns: 1fr;
-        width: 88vw;
+        // width: 88vw;
         text-align: center;
-        height: 71vh;
+        height: 55vh;
         .item-img {
             img {
                 width: unset;
             }
+        }
+        .line{
+            top: 18vh;
+            left: 0;
         }
     }
 }

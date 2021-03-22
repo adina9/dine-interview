@@ -4,7 +4,7 @@
 
     background-image: url("../../assets/images/homepage/hero-bg-desktop.jpg");
     .top p {
-        font-size: 30px;
+        font-size: 40px;
         color: white;
         font-weight: bold;
         font-family: system-ui;
@@ -42,8 +42,32 @@
 }
 @media (max-width: 400px) {
     .partA {
+        align-items: center;
+        text-align: center;
         height: 748px;
         background-image: url("../../assets/images/homepage/hero-bg-mobile.jpg");
-        
+        .top p {
+            top: 23vh;
+            margin-left: 26vw;
+        }
+        .main-part {
+            height: 390px;
+            position: absolute;
+            top: 31vh;
+            color: white;
+            width: 76vw;
+            text-align: center;
+            font-size: 22px;
+            line-height: 56px;
+            .left{
+                .full-txt{
+                    font-size: 16px;
+                }
+                .btn{
+                    width: 53vw;
+                    height: 7vh;
+                }
+            }
+        }
     }
 }

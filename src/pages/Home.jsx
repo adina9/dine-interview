@@ -11,9 +11,9 @@ export function Home() {
     return (
         <section className="main-container">
             <PartA />
-            {/* <PartB /> */}
+            <PartB />
             <PartC />
-            {/* <PartD /> */}
+            <PartD />
             <PartE />
             <Footer />
         </section>
