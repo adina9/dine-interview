@@ -1,2 +1,2 @@
 # dine-interview
-hi
+For desktop: Should be displayed when the screen is 110
